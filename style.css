@@ -830,15 +830,33 @@ footer {
   .desktop-only { display: none; }
   .mobile-only { display: block; }
   
+  .main-layout {
+    gap: 40px;
+    padding: 40px 20px;
+  }
+
   .trust-grid {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 30px;
+  }
+  
+  .trust-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .stars {
+    justify-content: center;
   }
   
   .highlights-grid {
     grid-template-columns: 1fr;
   }
   
+  .highlight-card {
+    text-align: center;
+  }
+
   .gallery-grid {
     grid-template-columns: 1fr;
   }
@@ -850,11 +868,27 @@ footer {
   .urgency-banner {
     flex-direction: column;
     text-align: center;
-    gap: 30px;
+    gap: 20px;
+    padding: 30px 20px;
+  }
+
+  .countdown {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .time-box {
+    padding: 10px 15px;
+  }
+
+  .time-box span {
+    font-size: 1.5rem;
   }
   
   .calc-container, .location-grid {
     grid-template-columns: 1fr;
+    gap: 30px;
   }
   
   .brochure-section {
@@ -862,12 +896,38 @@ footer {
     text-align: center;
     padding: 30px 20px;
   }
+
+  .brochure-img img {
+    max-width: 100%;
+    transform: none;
+  }
   
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   
   .hero-actions {
     flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .section-block, .lead-form-card {
+    text-align: center;
+  }
+
+  .section-block h2 {
+    font-size: 2rem;
+  }
+
+  .place-item {
+    text-align: left;
+  }
+
+  .calc-header {
+    text-align: left;
   }
 }
