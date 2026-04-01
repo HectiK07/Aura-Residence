@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", () => {
             
             // Redirect to WhatsApp via API
             const waMsg = encodeURIComponent(`Hi, I am ${name}. I just registered on the website for Aura Residences and want more details.`);
-            window.open(`https://wa.me/919876543210?text=${waMsg}`, "_blank");
+            window.open(`https://wa.me/919137938034?text=${waMsg}`, "_blank");
             
             // Reset form
             e.target.reset();
