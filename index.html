@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Residences | Ultra Luxury Homes in Worli, Mumbai</title>
+    <meta name="description" content="Discover premium luxury apartments at Aura Residences, Worli. Starting at ₹4.5 Crores. Book a site visit today.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919876543210?text=I%20am%20interested%20in%20Aura%20Residences.%20Please%20share%20details." class="floating-whatsapp" target="_blank" rel="noopener noreferrer">
+        <i class="ph ph-whatsapp-logo"></i>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <div class="logo">AURA<br><span>RESIDENCES</span></div>
+            <div class="nav-links desktop-only">
+                <a href="#overview">Overview</a>
+                <a href="#amenities">Amenities</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#location">Location</a>
+                <button class="btn btn-outline btn-sm open-modal-btn">Enquire Now</button>
+            </div>
+            <button class="mobile-menu-btn mobile-only">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content reveal-up">
+            <div class="hero-badge">Pre-Launch Opportunity</div>
+            <h1>Luxury Homes in Worli<br><span>Starting ₹4.5 Crores*</span></h1>
+            <p class="hero-subline">Experience ultra-premium living with unmatched connectivity, breathtaking panoramic views, and world-class amenities in the heart of Mumbai.</p>
+            <div class="hero-actions">
+                <button class="btn btn-primary open-modal-btn">Book Free Site Visit</button>
+                <a href="#emi-calc" class="btn btn-secondary">Get Price Details</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Banner -->
+    <div class="trust-banner reveal-up">
+        <div class="container trust-grid">
+            <div class="trust-item">
+                <i class="ph ph-certificate"></i>
+                <div class="trust-text">
+                    <strong>RERA Registered</strong>
+                    <span>P518000XXXXX</span>
+                </div>
+            </div>
+            <div class="trust-item">
+                <i class="ph ph-buildings"></i>
+                <div class="trust-text">
+                    <strong>Premium Developer</strong>
+                    <span>Krafly Group</span>
+                </div>
+            </div>
+            <div class="trust-item">
+                <div class="stars">
+                    <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                </div>
+                <div class="trust-text">
+                    <strong>4.9/5 Rating</strong>
+                    <span>Based on 250+ reviews</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Layout: Content + Sticky Form -->
+    <section class="main-layout container" id="overview">
+        <div class="main-content">
+            <!-- Project Highlights -->
+            <div class="section-block reveal-up">
+                <h2>The Pinnacle of Modern Living</h2>
+                <p>Aura Residences brings you flawlessly designed ultra-luxurious layouts tailored for the elite. Set in Worli, enjoy access to the finest lifestyle Mumbai has to offer, paired with total privacy and prestige.</p>
+                
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <i class="ph ph-map-pin"></i>
+                        <h3>Prime Location</h3>
+                        <p>5 mins from Sea Link, 10 mins to BKC</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="ph ph-swimming-pool"></i>
+                        <h3>40+ Amenities</h3>
+                        <p>Infinity pool, Helipad, Luxury Spa</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="ph ph-trend-up"></i>
+                        <h3>High ROI</h3>
+                        <p>Perfect for end-use or premium rental yields</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="ph ph-armchair"></i>
+                        <h3>Smart Homes</h3>
+                        <p>Voice & app controlled lighting & climate</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Visual Gallery -->
+            <div class="section-block reveal-up" id="gallery">
+                <h2>Exquisite Craftsmanship</h2>
+                <p>Discover interiors and exteriors designed to perfection.</p>
+                <div class="gallery-grid">
+                    <img src="assets/exterior_render.png" alt="Exterior View of Aura Residences" class="gallery-img main-img">
+                    <img src="assets/interior_render.png" alt="Luxury Living Room Interior" class="gallery-img">
+                    <img src="assets/lifestyle_family.png" alt="Happy family in luxury apartment" class="gallery-img">
+                </div>
+            </div>
+
+            <!-- Urgency / Scarcity -->
+            <div class="urgency-banner reveal-up">
+                <div class="urgency-content">
+                    <h3>Pre-Launch Offers Ending Soon!</h3>
+                    <p>Only <span class="highlight-gold">12 units</span> remaining at current baseline price.</p>
+                </div>
+                <div class="countdown" id="countdown">
+                    <div class="time-box"><span id="days">02</span><small>Days</small></div>
+                    <div class="time-box"><span id="hours">14</span><small>Hrs</small></div>
+                    <div class="time-box"><span id="minutes">35</span><small>Min</small></div>
+                    <div class="time-box"><span id="seconds">22</span><small>Sec</small></div>
+                </div>
+            </div>
+
+            <!-- EMI Calculator -->
+            <div class="section-block calculator-section reveal-up" id="emi-calc">
+                <h2>EMI Calculator</h2>
+                <p>Estimate your monthly investment.</p>
+                
+                <div class="calc-container">
+                    <div class="calc-inputs">
+                        <div class="calc-group">
+                            <div class="calc-header">
+                                <label>Property Price (₹)</label>
+                                <span id="price-val">4,50,00,000</span>
+                            </div>
+                            <input type="range" id="price-slider" min="30000000" max="100000000" step="1000000" value="45000000">
+                        </div>
+                        
+                        <div class="calc-group">
+                            <div class="calc-header">
+                                <label>Down Payment (₹)</label>
+                                <span id="dp-val">90,00,000</span>
+                            </div>
+                            <input type="range" id="dp-slider" min="10000000" max="80000000" step="500000" value="9000000">
+                        </div>
+
+                        <div class="calc-group">
+                            <div class="calc-header">
+                                <label>Loan Tenure (Years)</label>
+                                <span id="tenure-val">20</span>
+                            </div>
+                            <input type="range" id="tenure-slider" min="5" max="30" step="1" value="20">
+                        </div>
+                        
+                        <div class="calc-group">
+                            <label>Interest Rate (%)</label>
+                            <input type="number" id="interest-rate" value="8.5" step="0.1" readonly class="input-readonly">
+                        </div>
+                    </div>
+                    
+                    <div class="calc-result">
+                        <p>Estimated Monthly EMI</p>
+                        <h3 id="emi-result">₹ 3,12,546</h3>
+                        <p class="disclaimer">*Indicative EMI at 8.5% p.a. Bank terms apply.</p>
+                        <button class="btn btn-primary w-100 open-modal-btn">Check Eligibility</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Brochure Section -->
+            <div class="brochure-section reveal-up">
+                <div class="brochure-text">
+                    <h2>Want the Full Picture?</h2>
+                    <p>Download our exclusive e-Brochure to see floor plans, exact dimensions, and full amenity lists.</p>
+                    <button class="btn btn-outline open-modal-btn">Download Brochure</button>
+                </div>
+                <div class="brochure-img">
+                    <img src="assets/brochure_cover.png" alt="Aura Residences Brochure">
+                </div>
+            </div>
+
+            <!-- Location -->
+            <div class="section-block reveal-up" id="location">
+                <h2>Unmatched Connectivity</h2>
+                <div class="location-grid">
+                    <div class="map-placeholder">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15086.036665790074!2d72.80936082987163!3d19.018260714781466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce9b1af8d8a7%3A0x6bba4bc8b98b9a10!2sWorli%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1704546410103!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="location-places">
+                        <div class="place-item">
+                            <div>
+                                <i class="ph ph-airplane-tilt"></i>
+                                <span>Airport</span>
+                            </div>
+                            <span class="distance">25 Mins</span>
+                        </div>
+                        <div class="place-item">
+                            <div>
+                                <i class="ph ph-briefcase"></i>
+                                <span>BKC Central</span>
+                            </div>
+                            <span class="distance">15 Mins</span>
+                        </div>
+                        <div class="place-item">
+                            <div>
+                                <i class="ph ph-student"></i>
+                                <span>International School</span>
+                            </div>
+                            <span class="distance">5 Mins</span>
+                        </div>
+                        <div class="place-item">
+                            <div>
+                                <i class="ph ph-heartbeat"></i>
+                                <span>Apollo Hospital</span>
+                            </div>
+                            <span class="distance">10 Mins</span>
+                        </div>
+                        <div class="place-item">
+                            <div>
+                                <i class="ph ph-shopping-bag"></i>
+                                <span>Luxury Mall</span>
+                            </div>
+                            <span class="distance">8 Mins</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sticky Lead Form -->
+        <div class="sticky-sidebar">
+            <div class="lead-form-card" id="sticky-form">
+                <h3>Register Your Interest</h3>
+                <p>Drop your details below and our luxury property expert will call you back instantly.</p>
+                <form class="lead-form" id="sidebar-lead-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Mobile Number (+91)" required pattern="[0-9]{10}">
+                    </div>
+                    <div class="form-group">
+                        <select name="budget" required>
+                            <option value="" disabled selected>Select Budget</option>
+                            <option value="4.5-5Cr">₹ 4.5 Cr - ₹ 5 Cr</option>
+                            <option value="5-7Cr">₹ 5 Cr - ₹ 7 Cr</option>
+                            <option value="7Cr+">₹ 7 Cr +</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Get Instant Call Back</button>
+                    <p class="privacy-note"><i class="ph ph-shield-check"></i> Your data is 100% secure.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta reveal-up">
+        <div class="container text-center">
+            <h2>Ready to Elevate Your Lifestyle?</h2>
+            <p>Schedule a VIP site walkthrough and experience the luxury yourself.</p>
+            <button class="btn btn-primary btn-large open-modal-btn">Schedule Free Site Visit</button>
+            <p class="small-text mt-2">Zero brokerage. Direct developer unit.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">AURA <span>RESIDENCES</span></div>
+            <p>Disclaimer: The images are for representation purposes only. The project is RERA registered. Pricing and availability subject to change.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lead Form Modal (Popup) -->
+    <dialog id="lead-form-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" id="close-modal-btn"><i class="ph ph-x"></i></button>
+            <h3>Get VIP Access</h3>
+            <p>Secure the best units at baseline prices.</p>
+            <form class="lead-form" id="popup-lead-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="phone" placeholder="Mobile Number (+91)" required pattern="[0-9]{10}">
+                </div>
+                <div class="form-group">
+                    <select name="purpose" required>
+                        <option value="" disabled selected>Purpose of Buying</option>
+                        <option value="End Use">End Use (Living)</option>
+                        <option value="Investment">Investment</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Request Details</button>
+            </form>
+        </div>
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+</html>
